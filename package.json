@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-cabs2f",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Compute the squared absolute value of a single-precision complex floating-point number.",
   "license": "Apache-2.0",
   "author": {
@@ -39,8 +39,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/complex-imag": "^0.1.0",
-    "@stdlib/complex-real": "^0.1.0",
+    "@stdlib/complex-imag": "^0.1.1",
+    "@stdlib/complex-real": "^0.1.1",
     "@stdlib/types": "^0.1.0",
     "@stdlib/utils-library-manifest": "^0.1.1"
   },

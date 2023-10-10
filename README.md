@@ -65,7 +65,7 @@ which corresponds to the length of a vector from the origin to a complex value p
 ## Usage
 
 ```javascript
-import cabs2f from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cabs2f@deno/mod.js';
+import cabs2f from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cabs2f@v0.1.1-deno/mod.js';
 ```
 
 #### cabs2f( z )
@@ -105,7 +105,7 @@ var y = cabs2f( new Complex64( 5.0, 3.0 ) );
 ```javascript
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32@deno/mod.js';
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
-import cabs2f from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cabs2f@deno/mod.js';
+import cabs2f from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cabs2f@v0.1.1-deno/mod.js';
 
 // Create a PRNG to generate uniformly distributed pseudorandom integers:
 var rand = discreteUniform( -50, 50 );

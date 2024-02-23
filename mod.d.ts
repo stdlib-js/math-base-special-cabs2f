@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -16,25 +16,21 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-var real = require( '@stdlib/complex-real' );
-var imag = require( '@stdlib/complex-imag' );
-
-
-// MAIN //
+import { Complex64 } from '@stdlib/types/complex';
 
 /**
 * Computes the squared absolute value of a single-precision complex floating-point number.
 *
 * ## Notes
 *
-* -   Be careful of overflow and underflow.
+* -   The absolute value of a complex number is its distance from zero.
 *
-* @param {Complex64} z - complex number
-* @returns {number} squared absolute value
+* @param z - complex number
+* @returns squared absolute value
 *
 * @example
 * var Complex64 = require( '@stdlib/complex-float32' );
@@ -42,13 +38,9 @@ var imag = require( '@stdlib/complex-imag' );
 * var v = cabs2f( new Complex64( 5.0, 3.0 ) );
 * // returns 34.0
 */
-function cabs2f( z ) {
-	var re = real( z );
-	var im = imag( z );
-	return (re*re) + (im*im);
-}
+declare function cabs2f( z: Complex64 ): number;
 
 
 // EXPORTS //
 
-module.exports = cabs2f;
+export = cabs2f;

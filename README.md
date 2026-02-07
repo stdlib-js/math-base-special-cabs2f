@@ -65,6 +65,11 @@ which corresponds to the length of a vector from the origin to a complex value p
 ## Usage
 
 ```javascript
+import cabs2f from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cabs2f@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-cabs2f/tags). For example,
+
+```javascript
 import cabs2f from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cabs2f@v0.3.1-esm/index.mjs';
 ```
 
@@ -110,7 +115,7 @@ var y = cabs2f( new Complex64( 5.0, 3.0 ) );
 
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@esm/index.mjs';
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
-import cabs2f from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cabs2f@v0.3.1-esm/index.mjs';
+import cabs2f from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cabs2f@esm/index.mjs';
 
 // Create a PRNG to generate uniformly distributed pseudorandom integers:
 var rand = discreteUniform( -50, 50 );
